@@ -22,6 +22,16 @@ We kept the architecture modular so it's easy to swap out models or hardware:
 | **Frontend** | Streamlit / React Dashboard |
 | **Hardware** | Soil moisture sensors, DHT22, Multispectral Drone cameras |
 ---
+## Project Structure
+agrisentinel-ai/
+│
+├── data/                # Dataset files
+├── models/              # Trained AI models
+├── sensors/             # IoT sensor scripts
+├── dashboard/           # Frontend dashboard
+├── app.py               # Main application
+├── requirements.txt     # Dependencies
+└── README.md
 # Getting Started
 1. Clone the repo:
 ```bash
@@ -50,6 +60,10 @@ python app.py
 * **Satellite Data:** Moving from drones to large-scale satellite monitoring.
 * **Edge AI:** Optimizing models to run on low-power devices in fields with no internet.
 * **Mobile App:** Push notifications for farmers so they get alerts directly on their phones.
+
+## Why This Matters
+Early detection of crop diseases and soil health problems can significantly reduce crop loss and improve agricultural productivity.
+AgriSentinel AI aims to support precision agriculture by providing farmers with data-driven insights that help them take preventive action before severe damage occurs.
 ### The Team 
 This project was built by:
 * **Vijay Bhargav** – The Model Developer
