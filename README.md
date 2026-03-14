@@ -25,7 +25,7 @@ We kept the architecture modular so it's easy to swap out models or hardware:
 # Getting Started
 1. Clone the repo:
 ```bash
-git clone https://github.com/vijaybhargavchiluveru/agrisentinel-ai.git
+https://github.com/vijaybhargavchiluveru/agrisentinel-ai.git
 cd agrisentinel-ai
 
 ```
